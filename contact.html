@@ -3,6 +3,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
+    <style>
+        footer {
+            text-align: center;
+        }
+
+        footer .quick-links {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        footer .quick-links div {
+            text-align: center;
+            margin: 0 10px; 
+        }
+
+        footer .quick-links img {
+            display: block; 
+            margin: 0 auto; 
+        }
+    </style>
   </head>
   <body>
     <header>
@@ -47,6 +70,24 @@
         <li>Saturday: 7 AM - 7 PM</li>
         <li>Sunday: 1 PM - 7 PM</li>
     </ul>
-    
+
+    <footer>
+        <h2>Quick Links</h2>
+        <div class="quick-links">
+            <div>
+                <img src="images/donate.jpg" alt="Donate">
+                <a href="contact.html">Donate</a>
+            </div>
+            <div>
+                <img src="images/volunteer.jpg" alt="Volunteer">
+                <a href="contact.html">Volunteer</a>
+            </div>
+            <div>
+                <img src="images/old-shaggy.jpg" alt="Location">
+                <a href="contact.html">Location</a>
+            </div>
+        </div>
+    </footer>
+
   </body>
 </html>
